@@ -1,0 +1,14 @@
+Workflow:
+git clone https://github.com/kizmet/Git-for-Web-Development-Project.git
+git remote add upstream https://github.com/LambdaSchool/Git-for-Web-Development-Project.git
+git branch bryant-patton
+git checkout bryant-patton
+touch bryant-patton.txt
+git add .
+git commit
+git status
+git push --set-upstream origin bryant-patton
+
+git fetch upstream
+git merge upstream/master
+git request-pull master https://github.com/kizmet/Git-Flow-Practice/ bryant-patton
